@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --border: 214 219 220; /* Adjust the value as needed */
+    --input: 214 219 220; /* Adjust the value as needed */
+    --ring: 214 219 220; /* Adjust the value as needed */
+    --background: 255 255 255; /* Adjust the value as needed */
+    --foreground: 0 0 0; /* General text color */
+    --primary: 0 86 179; /* #0056b3 */
+    --primary-foreground: 255 255 255; /* Adjust the value as needed */
+    --secondary: 255 255 255; /* #FFFFFF */
+    --secondary-foreground: 0 0 0; /* Adjust the value as needed */
+    --destructive: 255 0 0; /* Adjust the value as needed */
+    --destructive-foreground: 255 255 255; /* Adjust the value as needed */
+    --muted: 200 200 200; /* Adjust the value as needed */
+    --muted-foreground: 100 100 100; /* Adjust the value as needed */
+    --accent: 0 123 255; /* Adjust the value as needed */
+    --accent-foreground: 255 255 255; /* Adjust the value as needed */
+    --popover: 255 255 255; /* Adjust the value as needed */
+    --popover-foreground: 0 0 0; /* Adjust the value as needed */
+    --card: 255 255 255; /* Adjust the value as needed */
+    --card-foreground: 0 0 0; /* Adjust the value as needed */
+    --radius: 0.5rem; /* Default border radius */
+    --font-sans: "Cairo" sans-serif; /* Custom font */
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
